@@ -1,0 +1,52 @@
+.menu
+      { 
+        /* position: fixed; */
+          top: 0;
+          left: 0;
+          width: 220px;
+          height: 300px;
+          /* background: darkblue; */
+          color:rgb(0, 0, 0);
+          /* font-weight: bold; */
+          font-size: 18px;
+          display: flex;
+          flex-direction: column;
+          overflow: auto;
+          border: 1px solid rgb(189, 188, 188);
+           
+          
+      }
+  
+a{
+  text-decoration: none; 
+  color: black
+}
+
+      
+  ::-webkit-scrollbar{
+  width: 8px;
+  
+  }
+  ::-webkit-scrollbar-track{
+   border-radius: 10px;
+   background-color:rgba(111, 125, 139, 0.858);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+  background-color:rgb(67, 0, 86);
+  border-radius: 10px;
+  }
+  .btn10{
+    width:50px ;
+    height:50px ;
+    padding: 5px;
+    color:rgb(255, 217, 0) ;
+    background-color:rgb(67, 0, 86) ;
+    position: fixed;
+    border-radius: 100px;
+    border: solid 1px rgb(255, 217, 0);
+    /* top: 10px; */
+    bottom: 0px;
+    right: 0px;
+    display: block;
+}
